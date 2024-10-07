@@ -6,6 +6,9 @@ __pycache__/
 .Python
 *.env
 
+# Virtual environment
+venv/
+
 # Environment Variables
 .env
 
