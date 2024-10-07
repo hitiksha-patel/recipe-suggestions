@@ -1,0 +1,13 @@
+version: '3'
+services:
+  ingredients_service:
+    build: ./ingredients_service
+    ports:
+      - "5000:5000"
+    depends_on:
+      - recipe_service
+
+  recipe_service:
+    build: ./recipe_service
+    ports:
+      - "5001:5001"

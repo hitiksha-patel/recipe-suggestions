@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.env
+
+# Environment Variables
+.env
+
+# Docker
+*.log
+*.lock
+docker-compose.override.yml
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Packages
+*.egg
+*.egg-info/
+
+# Environment files
+.vscode/
+.idea/
+
+# Docker artifacts
+.docker/
